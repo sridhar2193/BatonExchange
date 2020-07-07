@@ -1,0 +1,44 @@
+[
+  {
+    "partyName":"PARTY A",
+    "orderType":"SELL",
+    "stock":"IBM",
+    "price":110.0,
+    "status":"UNSOLD"
+  },
+  {
+    "partyName":"PARTY A",
+    "orderType":"SELL",
+    "stock":"INFY",
+    "price":600.0,
+    "status":"UNSOLD"
+  },
+  {
+    "partyName":"PARTY A",
+    "orderType":"SELL",
+    "stock":"GOOG",
+    "price":500.0,
+    "status":"UNSOLD"
+  },
+  {
+    "partyName":"PARTY B",
+    "orderType":"BUY",
+    "stock":"IBM",
+    "price":110.0,
+    "status":"UNSOLD"
+  },
+  {
+    "partyName":"PARTY C",
+    "orderType":"BUY",
+    "stock":"IBM",
+    "price":110.0,
+    "status":"UNSOLD"
+  },
+  {
+    "partyName":"PARTY C",
+    "orderType":"BUY",
+    "stock":"INFY",
+    "price":600.0,
+    "status":"UNSOLD"
+  }
+]

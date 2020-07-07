@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS trades;
+
+CREATE TABLE orders (
+  id INT NOT NULL AUTO_INCREMENT,
+  party_name VARCHAR(250) NOT NULL,
+  order_type VARCHAR(250) NOT NULL,
+  stock VARCHAR(250) DEFAULT NULL,
+  price DOUBLE DEFAULT 0.0,
+  status VARCHAR(250) DEFAULT 'UNSOLD',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE trades (
+  id INT NOT NULL AUTO_INCREMENT,
+  buyer_name VARCHAR(250) NOT NULL,
+  seller_name VARCHAR(250) NOT NULL,
+  stock VARCHAR(250) DEFAULT NULL,
+  price DOUBLE DEFAULT 0.0,
+  date date,
+  PRIMARY KEY (`id`)
+);
